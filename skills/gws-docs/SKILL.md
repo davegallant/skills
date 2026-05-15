@@ -1,4 +1,3 @@
-<\!-- origin: https://github.com/googleworkspace/cli (rev: a3768d0e82ad83cca2da97724e46bea4ff0e6dbd) -->
 ---
 name: gws-docs
 description: "Read and write Google Docs."
@@ -11,6 +10,8 @@ metadata:
         - gws
     cliHelp: "gws docs --help"
 ---
+
+<!-- origin: https://github.com/googleworkspace/cli (rev: a3768d0e82ad83cca2da97724e46bea4ff0e6dbd) -->
 
 # docs (v1)
 
@@ -47,4 +48,3 @@ gws schema docs.<resource>.<method>
 ```
 
 Use `gws schema` output to build your `--params` and `--json` flags.
-

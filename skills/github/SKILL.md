@@ -1,8 +1,9 @@
-<\!-- origin: https://github.com/mitsuhiko/agent-stuff (rev: ab79f98104bcd3c6a7c5491e609f6d6700a7414d) -->
 ---
 name: github
 description: "Interact with GitHub using the `gh` CLI. Use `gh issue`, `gh pr`, `gh run`, and `gh api` for issues, PRs, CI runs, and advanced queries."
 ---
+
+<!-- origin: https://github.com/mitsuhiko/agent-stuff (rev: ab79f98104bcd3c6a7c5491e609f6d6700a7414d) -->
 
 # GitHub Skill
 

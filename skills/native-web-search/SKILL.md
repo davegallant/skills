@@ -1,8 +1,9 @@
-<\!-- origin: https://github.com/mitsuhiko/agent-stuff (rev: ab79f98104bcd3c6a7c5491e609f6d6700a7414d) -->
 ---
 name: native-web-search
 description: "Trigger native web search. Use when you need quick internet research with concise summaries and full source URLs."
 ---
+
+<!-- origin: https://github.com/mitsuhiko/agent-stuff (rev: ab79f98104bcd3c6a7c5491e609f6d6700a7414d) -->
 
 # Native Web Search
 

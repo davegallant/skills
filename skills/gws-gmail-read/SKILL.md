@@ -1,4 +1,3 @@
-<\!-- origin: https://github.com/googleworkspace/cli (rev: a3768d0e82ad83cca2da97724e46bea4ff0e6dbd) -->
 ---
 name: gws-gmail-read
 description: "Gmail: Read a message and extract its body or headers."
@@ -11,6 +10,8 @@ metadata:
         - gws
     cliHelp: "gws gmail +read --help"
 ---
+
+<!-- origin: https://github.com/googleworkspace/cli (rev: a3768d0e82ad83cca2da97724e46bea4ff0e6dbd) -->
 
 # gmail +read
 

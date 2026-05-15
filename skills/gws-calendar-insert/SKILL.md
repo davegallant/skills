@@ -1,4 +1,3 @@
-<\!-- origin: https://github.com/googleworkspace/cli (rev: a3768d0e82ad83cca2da97724e46bea4ff0e6dbd) -->
 ---
 name: gws-calendar-insert
 description: "Google Calendar: Create a new event."
@@ -11,6 +10,8 @@ metadata:
         - gws
     cliHelp: "gws calendar +insert --help"
 ---
+
+<!-- origin: https://github.com/googleworkspace/cli (rev: a3768d0e82ad83cca2da97724e46bea4ff0e6dbd) -->
 
 # calendar +insert
 

@@ -1,4 +1,3 @@
-<\!-- origin: https://github.com/googleworkspace/cli (rev: a3768d0e82ad83cca2da97724e46bea4ff0e6dbd) -->
 ---
 name: gws-calendar
 description: "Google Calendar: Manage calendars and events."
@@ -11,6 +10,8 @@ metadata:
         - gws
     cliHelp: "gws calendar --help"
 ---
+
+<!-- origin: https://github.com/googleworkspace/cli (rev: a3768d0e82ad83cca2da97724e46bea4ff0e6dbd) -->
 
 # calendar (v3)
 
@@ -107,4 +108,3 @@ gws schema calendar.<resource>.<method>
 ```
 
 Use `gws schema` output to build your `--params` and `--json` flags.
-

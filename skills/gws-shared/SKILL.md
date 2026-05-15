@@ -1,4 +1,3 @@
-<\!-- origin: https://github.com/googleworkspace/cli (rev: a3768d0e82ad83cca2da97724e46bea4ff0e6dbd) -->
 ---
 name: gws-shared
 description: "gws CLI: Shared patterns for authentication, global flags, and output formatting."
@@ -10,6 +9,8 @@ metadata:
       bins:
         - gws
 ---
+
+<!-- origin: https://github.com/googleworkspace/cli (rev: a3768d0e82ad83cca2da97724e46bea4ff0e6dbd) -->
 
 # gws — Shared Reference
 

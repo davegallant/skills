@@ -1,4 +1,3 @@
-<\!-- origin: https://github.com/googleworkspace/cli (rev: a3768d0e82ad83cca2da97724e46bea4ff0e6dbd) -->
 ---
 name: gws-gmail
 description: "Gmail: Send, read, and manage email."
@@ -11,6 +10,8 @@ metadata:
         - gws
     cliHelp: "gws gmail --help"
 ---
+
+<!-- origin: https://github.com/googleworkspace/cli (rev: a3768d0e82ad83cca2da97724e46bea4ff0e6dbd) -->
 
 # gmail (v1)
 
@@ -59,4 +60,3 @@ gws schema gmail.<resource>.<method>
 ```
 
 Use `gws schema` output to build your `--params` and `--json` flags.
-
