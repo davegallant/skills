@@ -20,8 +20,5 @@ Each skill is a `SKILL.md` file that teaches the assistant how to perform a spec
 | `gws-gmail-read` | Read Gmail messages |
 | `gws-shared` | Shared auth/config for Google Workspace skills |
 | `hunk-review` | Review code hunks |
-| `librarian` | Look up and manage references |
-| `native-web-search` | Web search via native browser integration |
 | `sentry` | Query Sentry for errors and issues |
 | `summarize` | Summarize content into markdown |
-| `web-browser` | Control a web browser for browsing tasks |
