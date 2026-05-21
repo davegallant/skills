@@ -20,5 +20,6 @@ Each skill is a `SKILL.md` file that teaches the assistant how to perform a spec
 | `gws-gmail-read` | Read Gmail messages |
 | `gws-shared` | Shared auth/config for Google Workspace skills |
 | `hunk-review` | Review code hunks |
+| `morning-digest` | Daily briefing: unread email, Slack mentions, and calendar |
 | `sentry` | Query Sentry for errors and issues |
 | `summarize` | Summarize content into markdown |
