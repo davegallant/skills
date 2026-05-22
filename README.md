@@ -2,7 +2,7 @@
 
 Custom slash commands for AI assistants, used across [Claude Code](https://claude.ai/code) and [Pi](https://pi.dev).
 
-Each skill is a `SKILL.md` file that teaches the assistant how to perform a specific task or interact with a specific tool. Skills are sourced from upstream repositories (primarily [`mitsuhiko/agent-stuff`](https://github.com/mitsuhiko/agent-stuff) and [`googleworkspace/cli`](https://github.com/googleworkspace/cli)) and pinned to specific revisions.
+Each skill is a `SKILL.md` file that teaches the assistant how to perform a specific task or interact with a specific tool. Some skils are sourced from upstream repositories (primarily [`mitsuhiko/agent-stuff`](https://github.com/mitsuhiko/agent-stuff) and [`googleworkspace/cli`](https://github.com/googleworkspace/cli)) and pinned to specific revisions.
 
 ## Skills
 
