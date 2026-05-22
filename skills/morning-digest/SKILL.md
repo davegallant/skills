@@ -21,7 +21,7 @@ Summarize the unread inbox: group by sender or theme, highlight anything urgent 
 
 ### 2. Slack Mentions and DMs
 
-Use `slack_search_public` to find recent messages directed at you:
+Use `slack_search_public_and_private` to find recent messages (last 24 hours) directed at you:
 
 ```
 query: "to:me"
