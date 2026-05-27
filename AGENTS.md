@@ -64,7 +64,6 @@ frontmatter — see [SKILL.md Format](#skillmd-format).
 | Upstream | Skills |
 |----------|--------|
 | [`mitsuhiko/agent-stuff`](https://github.com/mitsuhiko/agent-stuff) | `commit`, `github`, `librarian`, `native-web-search`, `sentry`, `summarize`, `web-browser` |
-| [`googleworkspace/cli`](https://github.com/googleworkspace/cli) | `gws-calendar`, `gws-calendar-agenda`, `gws-calendar-insert`, `gws-docs`, `gws-docs-write`, `gws-gmail`, `gws-gmail-read`, `gws-shared` |
 | [`mattpocock/skills`](https://github.com/mattpocock/skills) | `grill-me` |
 | [`modem-dev/hunk`](https://github.com/modem-dev/hunk) | `hunk-review` |
 

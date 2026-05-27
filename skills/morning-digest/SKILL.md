@@ -13,9 +13,7 @@ Run these three data-gathering steps in parallel, then present a unified digest.
 
 ### 1. Unread Emails
 
-```bash
-gws gmail +triage
-```
+Use `mcp__claude_ai_Gmail__search_threads` with query `is:unread` to fetch unread threads.
 
 Summarize the unread inbox: group by sender or theme, highlight anything urgent or time-sensitive.
 
@@ -45,13 +43,9 @@ Group results by channel/sender. Highlight questions awaiting your response, act
 
 ### 3. Calendar
 
-```bash
-# Today's schedule
-gws calendar +agenda --today
-
-# Rest of the week
-gws calendar +agenda --days 5
-```
+Use `mcp__claude_ai_Google_Calendar__list_events` to fetch:
+- Today's events (set `time_min` to start of today, `time_max` to end of today)
+- Rest of the week (set `time_max` to end of the week)
 
 ### Presenting the Digest
 
