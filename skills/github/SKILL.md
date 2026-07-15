@@ -3,8 +3,6 @@ name: github
 description: "Interact with GitHub using the `gh` CLI. Use `gh issue`, `gh pr`, `gh run`, and `gh api` for issues, PRs, CI runs, and advanced queries."
 ---
 
-<!-- origin: https://github.com/mitsuhiko/agent-stuff (rev: ab79f98104bcd3c6a7c5491e609f6d6700a7414d) -->
-
 # GitHub Skill
 
 Use the `gh` CLI to interact with GitHub. Always specify `--repo owner/repo` when not in a git directory, or use URLs directly.

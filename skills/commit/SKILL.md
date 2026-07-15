@@ -3,8 +3,6 @@ name: commit
 description: "Read this skill before making git commits"
 ---
 
-<!-- origin: https://github.com/mitsuhiko/agent-stuff (rev: ab79f98104bcd3c6a7c5491e609f6d6700a7414d) -->
-
 Create a git commit for the current changes using a concise Conventional Commits-style subject.
 
 ## Format

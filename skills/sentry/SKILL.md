@@ -3,8 +3,6 @@ name: sentry
 description: "Fetch and analyze Sentry issues, events, transactions, and logs. Helps agents debug errors, find root causes, and understand what happened at specific times."
 ---
 
-<!-- origin: https://github.com/mitsuhiko/agent-stuff (rev: ab79f98104bcd3c6a7c5491e609f6d6700a7414d) -->
-
 # Sentry Skill
 
 Access Sentry data via the API for debugging and investigation. Uses auth token from `~/.sentryclirc`.

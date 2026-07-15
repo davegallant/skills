@@ -3,8 +3,6 @@ name: summarize
 description: "Fetch a URL or convert a local file (PDF/DOCX/HTML/etc.) into Markdown using `uvx markitdown`, optionally it can summarize"
 ---
 
-<!-- origin: https://github.com/mitsuhiko/agent-stuff (rev: ab79f98104bcd3c6a7c5491e609f6d6700a7414d) -->
-
 Turn “things” (URLs, PDFs, Word docs, PowerPoints, HTML pages, text files, etc.) into **Markdown** so they can be inspected/quoted/processed like normal text.
 
 `markitdown` can fetch URLs by itself; this skill mainly wraps it to make saving + summarizing convenient.
