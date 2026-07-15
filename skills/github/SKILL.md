@@ -31,6 +31,19 @@ View logs for failed steps only:
 gh run view <run-id> --repo owner/repo --log-failed
 ```
 
+## Reviewing Pull Requests
+
+Approve with `gh pr review --approve`. Keep the review body terse — no
+meta-commentary about the act of reviewing (e.g. don't write "Approving
+this PR because..." or restate what the PR does). If there's nothing
+worth saying, approve with no body at all:
+```bash
+gh pr review 55 --repo owner/repo --approve
+```
+
+If a comment is warranted, keep it to one or two short lines, stated
+directly.
+
 ## API for Advanced Queries
 
 The `gh api` command is useful for accessing data not available through other subcommands.
