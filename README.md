@@ -13,7 +13,5 @@ Each skill is a `SKILL.md` file that teaches the assistant how to perform a spec
 | `grill-me` | Interactive Q&A / knowledge testing |
 | `hunk-review` | Review code hunks |
 | `issue-tracker-local` | Track issues/specs as local markdown files under `.scratch/` |
-| `morning-digest` | Daily briefing: unread email, Slack mentions, and calendar |
 | `obsidian-vault` | Search, create, and manage notes in the Obsidian vault |
-| `sentry` | Query Sentry for errors and issues |
 | `summarize` | Summarize content into markdown |
