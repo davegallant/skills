@@ -8,14 +8,18 @@ description: "Use when the user runs /my-prs, or asks for their open pull reques
 Cross-repo GitHub PR status via `gh search prs`. `gh pr list` and `gh pr status`
 are repo-scoped — don't use them here, even when inside a git repo.
 
+Every PR is a markdown link: `[owner/repo#123](https://github.com/...)`, never a
+bare `owner/repo#123` ref. The queries below already emit that shape — pass the
+`--jq` output straight through.
+
 The answer is these three sections, in this order.
 
 ## 1. Needs my review
 
 ```bash
 gh search prs "user-review-requested:@me" --archived=false --state=open --limit 1000 \
-  --json repository,number,title,author,updatedAt \
-  --jq 'sort_by(.updatedAt)|reverse|.[]|"\(.repository.nameWithOwner)#\(.number) (@\(.author.login)) \(.title)"'
+  --json repository,number,title,author,url,updatedAt \
+  --jq 'sort_by(.updatedAt)|reverse|.[]|"- [\(.repository.nameWithOwner)#\(.number)](\(.url)) (@\(.author.login)) \(.title)"'
 ```
 
 List every result. This is the actionable queue, so it leads.
@@ -24,18 +28,18 @@ List every result. This is the actionable queue, so it leads.
 
 ```bash
 gh search prs --author=@me --archived=false --state=open --limit 1000 \
-  --json repository,number,title,isDraft,updatedAt \
-  --jq 'sort_by(.updatedAt)|reverse|.[]|"\(.repository.nameWithOwner)#\(.number)\(if .isDraft then " [draft]" else "" end) \(.title)"'
+  --json repository,number,title,isDraft,url,updatedAt \
+  --jq 'sort_by(.updatedAt)|reverse|.[]|"- [\(.repository.nameWithOwner)#\(.number)](\(.url))\(if .isDraft then " (draft)" else "" end) \(.title)"'
 ```
 
-List every result, most recently updated first, drafts marked `[draft]`.
+List every result, most recently updated first, drafts marked `(draft)`.
 
 ## 3. Team review queue
 
 ```bash
 gh search prs --review-requested=@me --archived=false --draft=false --state=open --limit 1000 \
-  --json repository,number,title,updatedAt \
-  --jq 'sort_by(.updatedAt)|reverse|.[]|"\(.repository.nameWithOwner)#\(.number) \(.title)"'
+  --json repository,number,title,url,updatedAt \
+  --jq 'sort_by(.updatedAt)|reverse|.[]|"- [\(.repository.nameWithOwner)#\(.number)](\(.url)) \(.title)"'
 ```
 
 Report the total count, then the 10 most recent. It runs to dozens of PRs — show
